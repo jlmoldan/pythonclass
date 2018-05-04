@@ -1,0 +1,14 @@
+def remove_Vowels(s):
+    vowels = "aeiouAEIOU"
+    sWithoutVowels = ""
+    for eachChar in s:
+        if eachChar not in vowels:
+            sWithoutVowels = sWithoutVowels + eachChar
+    return sWithoutVowels.upper()
+
+print(remove_Vowels("mystring"))
+
+
+# Define a function remove_vowels(mystring).
+# When called, it should return a copy of mystring with all
+# characters converted to uppercase and  all of the vowels 'AEIOU' removed.
