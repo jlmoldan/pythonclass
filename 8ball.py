@@ -1,4 +1,6 @@
 # Import the modules
+# Jason Moldan
+
 import sys
 import random
 
@@ -34,4 +36,4 @@ while ans:
         print "My reply is no"
     
     elif answers == 8:
-        print "My sources say no"
+        print "My sources say yes"
